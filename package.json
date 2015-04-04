@@ -1,0 +1,37 @@
+{
+  "author": "Talles L <talleslasmar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tallesl/por-extenso/issues"
+  },
+  "description": "Brazilian Portuguese numbers in full",
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "homepage": "https://github.com/tallesl/por-extenso",
+  "keywords": [
+    "brasileiros",
+    "brazilian",
+    "extenso",
+    "full",
+    "in",
+    "numbers",
+    "numeros",
+    "por",
+    "portuguese"
+  ],
+  "license": "Fair",
+  "main": "./lib/por-extenso.js",
+  "name": "por-extenso",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tallesl/por-extenso.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0"
+}
