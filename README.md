@@ -18,6 +18,8 @@ por-extenso@1.0.0 node_modules/por-extenso
 $ node
 > var porExtenso = require('por-extenso')
 undefined
+> porExtenso('9')
+'nove'
 > porExtenso(123)
 'cento e vinte e três'
 ```
