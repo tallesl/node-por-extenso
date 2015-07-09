@@ -1,7 +1,8 @@
 var assert     = require('assert')
   , porExtenso = require('../lib/por-extenso')
 
-it('should translate 50* in full correctly', function () {
+it('500+', function () {
+
   assert.equal(porExtenso(500), 'quinhentos')
   assert.equal(porExtenso(501), 'quinhentos e um')
   assert.equal(porExtenso(502), 'quinhentos e dois')
@@ -12,9 +13,7 @@ it('should translate 50* in full correctly', function () {
   assert.equal(porExtenso(507), 'quinhentos e sete')
   assert.equal(porExtenso(508), 'quinhentos e oito')
   assert.equal(porExtenso(509), 'quinhentos e nove')
-})
 
-it('should translate 51* in full correctly', function () {
   assert.equal(porExtenso(510), 'quinhentos e dez')
   assert.equal(porExtenso(511), 'quinhentos e onze')
   assert.equal(porExtenso(512), 'quinhentos e doze')
@@ -25,9 +24,7 @@ it('should translate 51* in full correctly', function () {
   assert.equal(porExtenso(517), 'quinhentos e dezessete')
   assert.equal(porExtenso(518), 'quinhentos e dezoito')
   assert.equal(porExtenso(519), 'quinhentos e dezenove')
-})
 
-it('should translate 52* in full correctly', function () {
   assert.equal(porExtenso(520), 'quinhentos e vinte')
   assert.equal(porExtenso(521), 'quinhentos e vinte e um')
   assert.equal(porExtenso(522), 'quinhentos e vinte e dois')
@@ -38,9 +35,7 @@ it('should translate 52* in full correctly', function () {
   assert.equal(porExtenso(527), 'quinhentos e vinte e sete')
   assert.equal(porExtenso(528), 'quinhentos e vinte e oito')
   assert.equal(porExtenso(529), 'quinhentos e vinte e nove')
-})
 
-it('should translate 53* in full correctly', function () {
   assert.equal(porExtenso(530), 'quinhentos e trinta')
   assert.equal(porExtenso(531), 'quinhentos e trinta e um')
   assert.equal(porExtenso(532), 'quinhentos e trinta e dois')
@@ -51,9 +46,7 @@ it('should translate 53* in full correctly', function () {
   assert.equal(porExtenso(537), 'quinhentos e trinta e sete')
   assert.equal(porExtenso(538), 'quinhentos e trinta e oito')
   assert.equal(porExtenso(539), 'quinhentos e trinta e nove')
-})
 
-it('should translate 54* in full correctly', function () {
   assert.equal(porExtenso(540), 'quinhentos e quarenta')
   assert.equal(porExtenso(541), 'quinhentos e quarenta e um')
   assert.equal(porExtenso(542), 'quinhentos e quarenta e dois')
@@ -64,9 +57,7 @@ it('should translate 54* in full correctly', function () {
   assert.equal(porExtenso(547), 'quinhentos e quarenta e sete')
   assert.equal(porExtenso(548), 'quinhentos e quarenta e oito')
   assert.equal(porExtenso(549), 'quinhentos e quarenta e nove')
-})
 
-it('should translate 55* in full correctly', function () {
   assert.equal(porExtenso(550), 'quinhentos e cinquenta')
   assert.equal(porExtenso(551), 'quinhentos e cinquenta e um')
   assert.equal(porExtenso(552), 'quinhentos e cinquenta e dois')
@@ -77,9 +68,7 @@ it('should translate 55* in full correctly', function () {
   assert.equal(porExtenso(557), 'quinhentos e cinquenta e sete')
   assert.equal(porExtenso(558), 'quinhentos e cinquenta e oito')
   assert.equal(porExtenso(559), 'quinhentos e cinquenta e nove')
-})
 
-it('should translate 56* in full correctly', function () {
   assert.equal(porExtenso(560), 'quinhentos e sessenta')
   assert.equal(porExtenso(561), 'quinhentos e sessenta e um')
   assert.equal(porExtenso(562), 'quinhentos e sessenta e dois')
@@ -90,9 +79,7 @@ it('should translate 56* in full correctly', function () {
   assert.equal(porExtenso(567), 'quinhentos e sessenta e sete')
   assert.equal(porExtenso(568), 'quinhentos e sessenta e oito')
   assert.equal(porExtenso(569), 'quinhentos e sessenta e nove')
-})
 
-it('should translate 57* in full correctly', function () {
   assert.equal(porExtenso(570), 'quinhentos e setenta')
   assert.equal(porExtenso(571), 'quinhentos e setenta e um')
   assert.equal(porExtenso(572), 'quinhentos e setenta e dois')
@@ -103,9 +90,7 @@ it('should translate 57* in full correctly', function () {
   assert.equal(porExtenso(577), 'quinhentos e setenta e sete')
   assert.equal(porExtenso(578), 'quinhentos e setenta e oito')
   assert.equal(porExtenso(579), 'quinhentos e setenta e nove')
-})
 
-it('should translate 58* in full correctly', function () {
   assert.equal(porExtenso(580), 'quinhentos e oitenta')
   assert.equal(porExtenso(581), 'quinhentos e oitenta e um')
   assert.equal(porExtenso(582), 'quinhentos e oitenta e dois')
@@ -116,9 +101,7 @@ it('should translate 58* in full correctly', function () {
   assert.equal(porExtenso(587), 'quinhentos e oitenta e sete')
   assert.equal(porExtenso(588), 'quinhentos e oitenta e oito')
   assert.equal(porExtenso(589), 'quinhentos e oitenta e nove')
-})
 
-it('should translate 59* in full correctly', function () {
   assert.equal(porExtenso(590), 'quinhentos e noventa')
   assert.equal(porExtenso(591), 'quinhentos e noventa e um')
   assert.equal(porExtenso(592), 'quinhentos e noventa e dois')
@@ -129,5 +112,6 @@ it('should translate 59* in full correctly', function () {
   assert.equal(porExtenso(597), 'quinhentos e noventa e sete')
   assert.equal(porExtenso(598), 'quinhentos e noventa e oito')
   assert.equal(porExtenso(599), 'quinhentos e noventa e nove')
+
 })
 

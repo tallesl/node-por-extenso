@@ -1,7 +1,7 @@
 var assert     = require('assert')
   , porExtenso = require('../lib/por-extenso')
 
-it('should leave negative numbers alone', function () {
+it('< 0', function () {
   assert.equal(porExtenso(-1), -1)
   assert.equal(porExtenso(-90), -90)
   assert.equal(porExtenso(-99), -99)

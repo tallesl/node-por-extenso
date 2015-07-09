@@ -1,7 +1,8 @@
 var assert     = require('assert')
   , porExtenso = require('../lib/por-extenso')
 
-it('should translate 60* in full correctly', function () {
+it('600+', function () {
+
   assert.equal(porExtenso(600), 'seiscentos')
   assert.equal(porExtenso(601), 'seiscentos e um')
   assert.equal(porExtenso(602), 'seiscentos e dois')
@@ -12,9 +13,7 @@ it('should translate 60* in full correctly', function () {
   assert.equal(porExtenso(607), 'seiscentos e sete')
   assert.equal(porExtenso(608), 'seiscentos e oito')
   assert.equal(porExtenso(609), 'seiscentos e nove')
-})
 
-it('should translate 61* in full correctly', function () {
   assert.equal(porExtenso(610), 'seiscentos e dez')
   assert.equal(porExtenso(611), 'seiscentos e onze')
   assert.equal(porExtenso(612), 'seiscentos e doze')
@@ -25,9 +24,7 @@ it('should translate 61* in full correctly', function () {
   assert.equal(porExtenso(617), 'seiscentos e dezessete')
   assert.equal(porExtenso(618), 'seiscentos e dezoito')
   assert.equal(porExtenso(619), 'seiscentos e dezenove')
-})
 
-it('should translate 62* in full correctly', function () {
   assert.equal(porExtenso(620), 'seiscentos e vinte')
   assert.equal(porExtenso(621), 'seiscentos e vinte e um')
   assert.equal(porExtenso(622), 'seiscentos e vinte e dois')
@@ -38,9 +35,7 @@ it('should translate 62* in full correctly', function () {
   assert.equal(porExtenso(627), 'seiscentos e vinte e sete')
   assert.equal(porExtenso(628), 'seiscentos e vinte e oito')
   assert.equal(porExtenso(629), 'seiscentos e vinte e nove')
-})
 
-it('should translate 63* in full correctly', function () {
   assert.equal(porExtenso(630), 'seiscentos e trinta')
   assert.equal(porExtenso(631), 'seiscentos e trinta e um')
   assert.equal(porExtenso(632), 'seiscentos e trinta e dois')
@@ -51,9 +46,7 @@ it('should translate 63* in full correctly', function () {
   assert.equal(porExtenso(637), 'seiscentos e trinta e sete')
   assert.equal(porExtenso(638), 'seiscentos e trinta e oito')
   assert.equal(porExtenso(639), 'seiscentos e trinta e nove')
-})
 
-it('should translate 64* in full correctly', function () {
   assert.equal(porExtenso(640), 'seiscentos e quarenta')
   assert.equal(porExtenso(641), 'seiscentos e quarenta e um')
   assert.equal(porExtenso(642), 'seiscentos e quarenta e dois')
@@ -64,9 +57,7 @@ it('should translate 64* in full correctly', function () {
   assert.equal(porExtenso(647), 'seiscentos e quarenta e sete')
   assert.equal(porExtenso(648), 'seiscentos e quarenta e oito')
   assert.equal(porExtenso(649), 'seiscentos e quarenta e nove')
-})
 
-it('should translate 65* in full correctly', function () {
   assert.equal(porExtenso(650), 'seiscentos e cinquenta')
   assert.equal(porExtenso(651), 'seiscentos e cinquenta e um')
   assert.equal(porExtenso(652), 'seiscentos e cinquenta e dois')
@@ -77,9 +68,7 @@ it('should translate 65* in full correctly', function () {
   assert.equal(porExtenso(657), 'seiscentos e cinquenta e sete')
   assert.equal(porExtenso(658), 'seiscentos e cinquenta e oito')
   assert.equal(porExtenso(659), 'seiscentos e cinquenta e nove')
-})
 
-it('should translate 66* in full correctly', function () {
   assert.equal(porExtenso(660), 'seiscentos e sessenta')
   assert.equal(porExtenso(661), 'seiscentos e sessenta e um')
   assert.equal(porExtenso(662), 'seiscentos e sessenta e dois')
@@ -90,9 +79,7 @@ it('should translate 66* in full correctly', function () {
   assert.equal(porExtenso(667), 'seiscentos e sessenta e sete')
   assert.equal(porExtenso(668), 'seiscentos e sessenta e oito')
   assert.equal(porExtenso(669), 'seiscentos e sessenta e nove')
-})
 
-it('should translate 67* in full correctly', function () {
   assert.equal(porExtenso(670), 'seiscentos e setenta')
   assert.equal(porExtenso(671), 'seiscentos e setenta e um')
   assert.equal(porExtenso(672), 'seiscentos e setenta e dois')
@@ -103,9 +90,7 @@ it('should translate 67* in full correctly', function () {
   assert.equal(porExtenso(677), 'seiscentos e setenta e sete')
   assert.equal(porExtenso(678), 'seiscentos e setenta e oito')
   assert.equal(porExtenso(679), 'seiscentos e setenta e nove')
-})
 
-it('should translate 68* in full correctly', function () {
   assert.equal(porExtenso(680), 'seiscentos e oitenta')
   assert.equal(porExtenso(681), 'seiscentos e oitenta e um')
   assert.equal(porExtenso(682), 'seiscentos e oitenta e dois')
@@ -116,9 +101,7 @@ it('should translate 68* in full correctly', function () {
   assert.equal(porExtenso(687), 'seiscentos e oitenta e sete')
   assert.equal(porExtenso(688), 'seiscentos e oitenta e oito')
   assert.equal(porExtenso(689), 'seiscentos e oitenta e nove')
-})
 
-it('should translate 69* in full correctly', function () {
   assert.equal(porExtenso(690), 'seiscentos e noventa')
   assert.equal(porExtenso(691), 'seiscentos e noventa e um')
   assert.equal(porExtenso(692), 'seiscentos e noventa e dois')
@@ -129,5 +112,6 @@ it('should translate 69* in full correctly', function () {
   assert.equal(porExtenso(697), 'seiscentos e noventa e sete')
   assert.equal(porExtenso(698), 'seiscentos e noventa e oito')
   assert.equal(porExtenso(699), 'seiscentos e noventa e nove')
+
 })
 
