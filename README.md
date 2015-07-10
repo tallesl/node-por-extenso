@@ -32,7 +32,7 @@ Brazilian Portuguese numbers in full.
 
 ```js
 $ npm install por-extenso
-por-extenso@1.1.0 node_modules/por-extenso
+por-extenso@1.1.1 node_modules/por-extenso
 $ node
 > var porExtenso = require('por-extenso')
 undefined
