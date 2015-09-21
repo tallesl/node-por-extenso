@@ -3,6 +3,9 @@
   "bugs": {
     "url": "https://github.com/tallesl/por-extenso/issues"
   },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
   "description": "Brazilian Portuguese numbers in full",
   "devDependencies": {
     "coveralls": "^2.11.2",
@@ -34,7 +37,7 @@
     "url": "https://github.com/tallesl/por-extenso.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "version": "1.1.2"
 }
