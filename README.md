@@ -34,11 +34,16 @@ Brazilian Portuguese numbers in full.
 $ npm install por-extenso
 por-extenso@1.1.1 node_modules/por-extenso
 $ node
-> var porExtenso = require('por-extenso')
+
+> var porExtenso = require('./lib/por-extenso')
 undefined
-> porExtenso('9')
+> porExtenso('9') // accepts an integer String
 'nove'
-> porExtenso(123)
-'cento e vinte e três'
+> porExtenso(99) // or an integer Number
+'noventa e nove'
+> porExtenso('eu tenho 99 balões') // in the middle of a text
+'eu tenho noventa e nove balões'
+> porExtenso.parse('eu tenho noventa e nove balões') // and also the other way around
+'eu tenho 99 balões'
 ```
 
