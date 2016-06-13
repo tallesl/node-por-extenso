@@ -3,14 +3,12 @@
   "bugs": {
     "url": "https://github.com/tallesl/por-extenso/issues"
   },
-  "dependencies": {
-    "lodash": "^3.10.1"
-  },
   "description": "Brazilian Portuguese numbers in full",
   "devDependencies": {
     "coveralls": "^2.11.2",
-    "istanbul": "^0.3.13",
-    "mocha": "^2.2.1"
+    "istanbul": "^0.4.3",
+    "mocha": "^2.2.1",
+    "standard": "^7.1.2"
   },
   "directories": {
     "asset": "./asset",
@@ -37,7 +35,7 @@
     "url": "https://github.com/tallesl/por-extenso.git"
   },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "standard && mocha"
   },
   "version": "1.2.0"
 }
